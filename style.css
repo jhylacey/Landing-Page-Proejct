@@ -1,22 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100;0,12..72,200;0,12..72,300;0,12..72,400;0,12..72,500;0,12..72,600;0,12..72,700;0,12..72,800;0,12..72,900;1,12..72,100;1,12..72,200;1,12..72,300;1,12..72,400;1,12..72,500;1,12..72,600;1,12..72,700;1,12..72,800;1,12..72,900&display=swap');
+
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    color: whitesmoke;
+    background-color: hsl(200, 83%, 10%);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    height: 50px;
+    fill: rgb(103, 103, 208);
+    padding-left: 8px;
 }
 
 .header {
     display: flex;
+    padding: 16px;
+    align-items: center;
+    background-color: rgb(251, 251, 251);
 }
 
 .header-nav {
     display: flex;
     margin-left: auto;
+    gap: 1em;
+    color: rgb(15, 20, 81);
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 900;
+    padding: -8;
+}
+
+.button {
+align-self: flex-start;
+margin-top: 32px;
+padding: 24px;
+}
+
+.body-text {
+    margin-top: -16px;
+    font-size: 24px;
 }
 
 .content {
     display: flex;
+    align-items: center;
+    padding: 72px;
+    gap:4em;
+    margin-bottom: 64px;
+    background-color: hsl(200, 83%, 30%);
 }
 
 .text-main {
     display: flex;
     flex-direction: column;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-color: hsl(200, 83%, 10%);
+
+}
+
+.card {
+    max-width: 200px;
+}
+.info {}
+
+.header2 {
+    display: flex;
+justify-content: center;   
+    background-color: hsl(200, 83%, 10%);
+    font-size: 68px;
+
+
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    height: 225px;
+    background-color: hsl(200, 83%, 40%);
+
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    font: 300;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height:350px;
+    background-color: hsl(200, 33%, 80%);
+    color: black;
+
+}
+
+.copyright {
+    margin: auto;
+    padding: 24px;
+
+    }
+
+.fizzont {
+    font-weight:300px;
+    font-size: 28px;
+}
+
+.sign-up {
+display: flex;
+justify-content: center;
+align-items: center;
+padding:32px;
 }
